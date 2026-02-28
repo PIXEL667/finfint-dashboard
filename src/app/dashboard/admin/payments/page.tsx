@@ -13,6 +13,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
+import { StatCard } from "@/components/ui/stat-card";
 import {
     Dialog,
     DialogContent,
@@ -136,13 +137,15 @@ export default function AdminPaymentHistoryPage() {
             {/* Stat Cards */}
             <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
                 {stats.map((stat) => (
-                    <div key={stat.label} className={`bg-card rounded-xl p-5 shadow-sm border border-border border-l-4 ${stat.borderColor} relative overflow-hidden`}>
-                        <div className={`p-2 rounded-lg ${stat.bg} w-fit mb-3`}>
-                            <stat.icon className={`h-5 w-5 ${stat.color}`} />
-                        </div>
-                        <p className="text-2xl font-bold tracking-tight">{stat.value}</p>
-                        <p className="text-sm text-muted-foreground mt-0.5">{stat.label}</p>
-                    </div>
+                    <StatCard
+                        key={stat.label}
+                        label={stat.label}
+                        value={stat.value}
+                        icon={stat.icon}
+                        color={stat.color}
+                        borderColor={stat.borderColor}
+                        bg={stat.bg}
+                    />
                 ))}
             </div>
 
