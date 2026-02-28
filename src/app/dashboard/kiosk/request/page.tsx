@@ -85,7 +85,7 @@ export default function KioskRequestsPage() {
                 ) : (
                     filtered.map(req => (
                         <Link key={req.id} href={`/dashboard/kiosk/request/${req.id}`}
-                            className="bg-card rounded-xl border border-border p-5 shadow-sm hover:shadow-md hover:border-emerald-200 transition-all flex items-center justify-between gap-4 group block">
+                            className="bg-card rounded-xl border border-border p-5 shadow-sm hover:shadow-md hover:border-emerald-200 transition-all flex items-center justify-between gap-4 group">
                             <div className="flex items-center gap-4 flex-1 min-w-0">
                                 <div className="h-10 w-10 rounded-lg bg-emerald-100 flex items-center justify-center shrink-0">
                                     <FileText className="h-5 w-5 text-emerald-600" />
