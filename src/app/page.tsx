@@ -25,7 +25,7 @@ export default function Home() {
                                 <ShieldCheck className="w-7 h-7 text-violet-600" />
                             </div>
                             <h2 className="text-2xl font-bold text-slate-900 mb-2">Admin Portal</h2>
-                            <p className="text-slate-500 mb-8 flex-grow">Manage all users, kiosks, services, requests, and monitor overall payment history.</p>
+                            <p className="text-slate-500 mb-8 grow">Manage all users, kiosks, services, requests, and monitor overall payment history.</p>
                             <div className="flex items-center text-violet-600 font-medium group-hover:translate-x-1 transition-transform">
                                 Access Dashboard <ArrowRight className="w-4 h-4 ml-2" />
                             </div>
@@ -42,7 +42,7 @@ export default function Home() {
                                 <Store className="w-7 h-7 text-emerald-600" />
                             </div>
                             <h2 className="text-2xl font-bold text-slate-900 mb-2">Agent Portal</h2>
-                            <p className="text-slate-500 mb-8 flex-grow">Manage your clients, submit service requests on their behalf, and track commissions.</p>
+                            <p className="text-slate-500 mb-8 grow">Manage your clients, submit service requests on their behalf, and track commissions.</p>
                             <div className="flex items-center text-emerald-600 font-medium group-hover:translate-x-1 transition-transform">
                                 Access Dashboard <ArrowRight className="w-4 h-4 ml-2" />
                             </div>
@@ -59,7 +59,7 @@ export default function Home() {
                                 <UserCircle className="w-7 h-7 text-sky-600" />
                             </div>
                             <h2 className="text-2xl font-bold text-slate-900 mb-2">Client Portal</h2>
-                            <p className="text-slate-500 mb-8 flex-grow">Track your submitted requests, upload required documents, and view history.</p>
+                            <p className="text-slate-500 mb-8 grow">Track your submitted requests, upload required documents, and view history.</p>
                             <div className="flex items-center text-sky-600 font-medium group-hover:translate-x-1 transition-transform">
                                 Access Dashboard <ArrowRight className="w-4 h-4 ml-2" />
                             </div>

@@ -58,7 +58,7 @@ function AppSidebar() {
         <Sidebar collapsible="icon" className="border-r border-border/40">
             <SidebarHeader className="p-4 pb-3">
                 <Link href="/dashboard/client" className="flex items-center gap-3 min-h-8">
-                    <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-gradient-to-br from-sky-500 to-cyan-500 text-white font-bold text-sm">
+                    <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-linear-to-br from-sky-500 to-cyan-500 text-white font-bold text-sm">
                         FF
                     </div>
                     <div className="flex flex-col group-data-[collapsible=icon]:hidden">

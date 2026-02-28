@@ -50,7 +50,7 @@ function AppSidebar() {
         <Sidebar collapsible="icon" className="border-r border-border/40">
             <SidebarHeader className="p-4 pb-3">
                 <Link href="/dashboard/admin" className="flex items-center gap-3 min-h-8">
-                    <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-gradient-to-br from-violet-600 to-indigo-600 text-white font-bold text-sm">
+                    <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-linear-to-br from-violet-600 to-indigo-600 text-white font-bold text-sm">
                         <ShieldCheck className="h-5 w-5" />
                     </div>
                     <div className="flex flex-col group-data-[collapsible=icon]:hidden">

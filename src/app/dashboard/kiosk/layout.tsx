@@ -52,7 +52,7 @@ function AppSidebar() {
         <Sidebar collapsible="icon" className="border-r border-border/40">
             <SidebarHeader className="p-4 pb-3">
                 <Link href="/dashboard/kiosk" className="flex items-center gap-3 min-h-8">
-                    <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-gradient-to-br from-emerald-500 to-teal-500 text-white font-bold text-sm">
+                    <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-linear-to-br from-emerald-500 to-teal-500 text-white font-bold text-sm">
                         <Store className="h-5 w-5" />
                     </div>
                     <div className="flex flex-col group-data-[collapsible=icon]:hidden">

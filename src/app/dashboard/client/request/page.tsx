@@ -95,7 +95,7 @@ export default function ClientRequestsPage() {
                         <Link
                             key={req.id}
                             href={`/dashboard/client/request/${req.id}`}
-                            className="bg-card rounded-xl border border-border p-5 shadow-sm hover:shadow-md hover:border-sky-200 transition-all flex items-center justify-between gap-4 group block"
+                            className="bg-card rounded-xl border border-border p-5 shadow-sm hover:shadow-md hover:border-sky-200 transition-all items-center justify-between gap-4 group block"
                         >
                             <div className="flex items-center gap-4 flex-1 min-w-0">
                                 <div className="h-10 w-10 rounded-lg bg-sky-100 flex items-center justify-center shrink-0">
